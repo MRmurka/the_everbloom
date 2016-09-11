@@ -1,0 +1,7 @@
+<If Condition="Me.ZoneId != 7109" >
+	<CustomBehavior File="Misc\RunLua" Lua="ResetInstances();" />
+	<CustomBehavior File="RunCode" Code="Bots.Professionbuddy.PBLog.Log(System.Windows.Media.Colors.DeepSkyBlue, &quot;[LionsFarm]: &quot;, System.Windows.Media.Colors.LightGreen, &quot;Heading to Instance.&quot;);" />
+	<MoveTo X="7107.848" Y="195.1683" Z="144.615" />
+	<CustomBehavior File="GoThruPortal" X="7097.138" Y="193.4476" Z="144.6451" />
+	<CustomBehavior File="WaitTimer" WaitTime="10000" TerminateWhen="Me.IsInInstance" />
+</If>
